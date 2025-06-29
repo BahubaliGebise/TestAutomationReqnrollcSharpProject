@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="892c954f-8bae-4e27-9145-49633235ef1f" name="user@DESKTOP-297JBHU 2025-06-28 22:37:59" runUser="DESKTOP-297JBHU\user" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-06-28T22:37:59.3888077+02:00" queuing="2025-06-28T22:37:59.3888080+02:00" start="2025-06-28T22:37:51.7553985+02:00" finish="2025-06-28T22:37:59.3981382+02:00" />
+  <TestSettings name="default" id="d8a6e9e6-7381-45db-8d5c-5e486534334d">
+    <Deployment runDeploymentRoot="user_DESKTOP-297JBHU_2025-06-28_22_37_59" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="7efc6da8-b084-4a23-a67b-ae80d4e7a35a" testId="cec3fd1b-705c-faa0-8406-4d1d709df5ad" testName="SuccessfulLogin" computerName="DESKTOP-297JBHU" duration="00:00:05.3310350" startTime="2025-06-28T22:37:53.8388065+02:00" endTime="2025-06-28T22:37:59.1696897+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7efc6da8-b084-4a23-a67b-ae80d4e7a35a">
+      <Output>
+        <StdOut>Given I am on the login page&#xD;
+-&gt; done: LoginSteps.GivenIAmOnTheLoginPage() (0.8s)&#xD;
+When I login with username "standard_user" and password "secret_sauce"&#xD;
+-&gt; done: LoginSteps.WhenILoginWithUsernameAndPassword("standard_user", "secret_sauce") (0.5s)&#xD;
+Then I should see the dashboard&#xD;
+     Warning:&#xD;
+     The component "Fluent Assertions" is governed by the rules defined in the Xceed License Agreement and&#xD;
+     the Xceed Fluent Assertions Community License. You may use Fluent Assertions free of charge for&#xD;
+     non-commercial use only. An active subscription is required to use Fluent Assertions for commercial use.&#xD;
+&#xD;
+     Please contact Xceed Sales mailto:sales@xceed.com to acquire a subscription at a very low cost.&#xD;
+&#xD;
+     A paid commercial license supports the development and continued increasing support of&#xD;
+     Fluent Assertions users under both commercial and community licenses. Help us&#xD;
+     keep Fluent Assertions at the forefront of unit testing.&#xD;
+&#xD;
+     For more information, visit https://xceed.com/products/unit-testing/fluent-assertions/&#xD;
+-&gt; done: LoginSteps.ThenIShouldSeeTheDashboard() (0.1s)</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="SuccessfulLogin" storage="c:\users\user\source\repos\testautomationreqnrollc#project\testautomationreqnrollc#project\bin\debug\net8.0\testautomationreqnrollproject.dll" id="cec3fd1b-705c-faa0-8406-4d1d709df5ad">
+      <Execution id="7efc6da8-b084-4a23-a67b-ae80d4e7a35a" />
+      <TestMethod codeBase="C:\Users\user\source\repos\TestAutomationReqnrollC#Project\TestAutomationReqnrollC#Project\bin\Debug\net8.0\TestAutomationReqnrollProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="TestAutomationReqnrollProject.Features.LoginFeature" name="SuccessfulLogin" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="cec3fd1b-705c-faa0-8406-4d1d709df5ad" executionId="7efc6da8-b084-4a23-a67b-ae80d4e7a35a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.5.0.0: Test execution started&#xD;
+Running all tests in C:\Users\user\source\repos\TestAutomationReqnrollC#Project\TestAutomationReqnrollC#Project\bin\Debug\net8.0\TestAutomationReqnrollProject.dll&#xD;
+   NUnit3TestExecutor discovered 1 of 1 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+Starting Microsoft Edge WebDriver 138.0.3351.55 (3171b71f28b79179ac707a31cd53ba14216aa62f) on port 64227&#xD;
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver&#xD;
+Only local connections are allowed.&#xD;
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.&#xD;
+msedgedriver was started successfully on port 64227.&#xD;
+NUnit Adapter 4.5.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="DESKTOP-297JBHU" outcome="Warning" timestamp="2025-06-28T22:37:59.2014720+02:00">
+        <Text>Given I am on the login page&#xD;
+-&gt; done: LoginSteps.GivenIAmOnTheLoginPage() (0.8s)&#xD;
+When I login with username "standard_user" and password "secret_sauce"&#xD;
+-&gt; done: LoginSteps.WhenILoginWithUsernameAndPassword("standard_user", "secret_sauce") (0.5s)&#xD;
+Then I should see the dashboard&#xD;
+     Warning:&#xD;
+     The component "Fluent Assertions" is governed by the rules defined in the Xceed License Agreement and&#xD;
+     the Xceed Fluent Assertions Community License. You may use Fluent Assertions free of charge for&#xD;
+     non-commercial use only. An active subscription is required to use Fluent Assertions for commercial use.&#xD;
+&#xD;
+     Please contact Xceed Sales mailto:sales@xceed.com to acquire a subscription at a very low cost.&#xD;
+&#xD;
+     A paid commercial license supports the development and continued increasing support of&#xD;
+     Fluent Assertions users under both commercial and community licenses. Help us&#xD;
+     keep Fluent Assertions at the forefront of unit testing.&#xD;
+&#xD;
+     For more information, visit https://xceed.com/products/unit-testing/fluent-assertions/&#xD;
+-&gt; done: LoginSteps.ThenIShouldSeeTheDashboard() (0.1s)&#xD;
+</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

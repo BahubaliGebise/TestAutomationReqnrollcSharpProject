@@ -1,0 +1,11 @@
+{
+    "plugins": [
+        {
+            "name": "Reqnroll.Plugins.Reports",
+            "parameters": {
+                "formats": "html",
+                "outputDirectory": "Reports"
+            }
+        }
+    ]
+}
